@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Inheritance
 public class Rocker : Enemy
 {
-    // Start is called before the first frame update
-    void Start()
+    protected override void Juke(float delta)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        transform.position = InitialPosition + new Vector3(0, 0, delta);
     }
 }

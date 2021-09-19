@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Inheritance
 public class BlueBull : Enemy
 {
-    // Start is called before the first frame update
-    void Start()
+    protected override void Juke(float delta)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        transform.position = InitialPosition + new Vector3(delta, 0, 0);
     }
 }
