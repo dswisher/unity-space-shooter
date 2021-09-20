@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Inheritance
+// INHERITANCE
 public class BlueBull : Enemy
 {
     protected override void Juke(float delta)

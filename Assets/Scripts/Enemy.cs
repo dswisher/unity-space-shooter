@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
-    // Encapsulation
+    // ENCAPSULATION
     protected Vector3 InitialPosition { get; private set; }
 
     private float phase;
@@ -56,6 +56,6 @@ public abstract class Enemy : MonoBehaviour
     }
 
 
-    // Polymorphism
+    // POLYMORPHISM
     protected abstract void Juke(float delta);
 }

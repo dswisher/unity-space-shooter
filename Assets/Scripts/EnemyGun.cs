@@ -17,9 +17,10 @@ public class EnemyGun : MonoBehaviour
     }
 
 
-    // Abstraction
+    // ABSTRACTION
     public void Shoot()
     {
+        // TODO - actually shoot!
         Debug.Log("Shoot!");
     }
 }
